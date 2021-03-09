@@ -32,9 +32,11 @@
     <?php
 
         $jawabanIsset = "Isset adalah = Berfungsi untuk memeriksa apakah suatu variabel sudah diatur atau belum. 
-                        Fungsi isset juga mengembalikan false jika variabel pengujian berisi nilai NULL. <br><br>";     
+                        Dan akan menghasilkan nilai true jika sebuah variabel telah didefenisikan, dan false jika variabel 
+                        tersebut belum dibuat. <br><br>";     
         $jawabanEmpty = "Empty adalah = Berfungsi sebagai penanda suatu kondisi. Contohnya yang sering kita temukan 
-                        adalah dalam pengisian suatu data, apakah data tersebut ada isinya atau tidak.";
+                        adalah dalam pengisian suatu data, apakah data tersebut ada isinya atau tidak. Sehingga apabila 
+                        memang datanya kosong, maka akan dimunculkan peringatan atau sebagainya. ";
 
         function soal($style)
         {
