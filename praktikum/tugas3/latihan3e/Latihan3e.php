@@ -124,9 +124,8 @@ $products = [
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet">
 
     <!-- Import bootsrap.css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -140,14 +139,14 @@ $products = [
 <body>
 
     <div class="container mt-5 mb-5">
-        <table id="cari" class="table table-hover">
-            <thead>
-                <tr class="tab">
+        <table class="table table-hover table-sm table-responsive table align-middle">
+            <thead class="table-danger">
+                <tr>
                     <th>No<i class="material-icons">import_export</i></th>
                     <th>Picture<i class="material-icons">import_export</i></th>
                     <th>Name<i class="material-icons">import_export</i></th>
                     <th>Brand<i class="material-icons">import_export</i></th>
-                    <th class="deskripsi">Decription<i class="material-icons">import_export</i></th>
+                    <th>Decription<i class="material-icons">import_export</i></th>
                     <th>Price<i class="material-icons">import_export</i></th>
                     <th>Category<i class="material-icons">import_export</i></th>
                 </tr>
@@ -161,7 +160,7 @@ $products = [
                     <td><?= $p["brand"] ?></td>
                     <td><?= $p["description"] ?></td>
                     <td><?= $p["price"] ?></td>
-                    <td><?= $p["category"] ?></td>
+                    <td><?= $p["category"]  ?></td>
                 </tr>
                 <?php $i++ ?>
             <?php endforeach; ?>
