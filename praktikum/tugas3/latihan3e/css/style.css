@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../font/Quicksand-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: 'Quicksand';
+    color: #101010;
+}
+
+/* CSS Dokumen */
+body{
+    background-color: white;
+    margin-top: 20px;
+    font-family: 'Quicksand';
+}
+
+table {
+    border:2px solid lightgrey;
+    padding-left: 10px;
+    border:2px solid lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tab {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.deskripsi {
+    width: 400px;
+}
+
+.kategori {
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
