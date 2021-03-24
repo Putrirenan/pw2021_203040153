@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../font/Quicksand-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: 'Quicksand';
+}
+
+/* CSS Dokumen */
+body{
+    background-color: white;
+    font-family: 'Quicksand';
+}
+
+.table {
+    border: 3px solid lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
