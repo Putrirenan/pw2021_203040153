@@ -109,8 +109,8 @@ if(isset($_GET['cari'])) {
 
             <?php if (empty($products)) : ?>
                 <tr>
-                    <td colspan="?">
-                        <h1>Data tidak ditemukan</h1>
+                    <td colspan="8">
+                        <h4>Data tidak ditemukan</h4>
                     </td>
                 </tr>
             <?php else : ?>
