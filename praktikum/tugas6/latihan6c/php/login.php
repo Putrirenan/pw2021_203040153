@@ -11,7 +11,7 @@ session_start();
 require 'functions.php';
 /* melakukan pengecekan apakah user sudah melakukan login 
    jika sudah redirect ke halamaan admin */
-if (isset($SESSION['username'])) {
+if (isset($_SESSION['username'])) {
     header("Location: admin.php");
     exit;
 }
