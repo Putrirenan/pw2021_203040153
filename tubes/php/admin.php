@@ -191,15 +191,9 @@ if(isset($_GET['cari'])) {
                 </tr>
             </thead>
                 <div class="add">
-                    <a href="tambah.php" class="link-dark btn  btn-sm" style="text-decoration:none; margin-left: 50px; 
+                    <a href="tambah.php" class="link-dark btn  btn-m" style="text-decoration:none; margin-left: 50px; 
                         margin-bottom: -100px; background-color: #7986cb; color: white;">Tambah Data</a>
                 </div> <br>
-
-                <!-- Logout ----------------->
-                <div class="logout">
-                    <a href="logout.php" class="link-dark btn  btn-sm" style="text-decoration:none; 
-                    background-color: #7986cb; color: white;">Logout</a>
-                </div>
 
             <!-- Searching ------------------>
             <form action="" method="get">

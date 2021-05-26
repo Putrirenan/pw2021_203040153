@@ -162,10 +162,13 @@ $products = query("SELECT * FROM products")
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="login nav-link" href="php/login.php">Login</a>
+                    <a class="login nav-link" href="php/login.php" target="_blank">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="logout nav-link" href="php/registrasi.php">Sign up</a>
+                    <a class="logout nav-link" href="php/registrasi.php" target="_blank">Sign up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color: #4b0082;"><i class="far fa-question-circle"></i></a>
                 </li>
             </ul>
         </div>
@@ -222,7 +225,7 @@ $products = query("SELECT * FROM products")
         <!-- Searching ----------------------->
         <form action="" method="POST" style=" padding: 0px 0px 0px 540px;">
             <input class="form-control" style="width: 450px;" type="text" name="keyword" class="keyword"
-            placeholder="Cari produk skincare disc10%..">
+            placeholder="Cari produk skincare disc10%.." autocomplete="off">
             <button class="link-dark btn btn-sm" type="submit" name="cari" 
                     style="margin: -65px 0px 0px 460px; text-decoration:none; background-color: #7986cb; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
                             color: white;">Cari</button>
@@ -296,38 +299,39 @@ $products = query("SELECT * FROM products")
           <li><p>ABOUT US</p></li>
           <li><a href="#tentang">About us</a></li>
           <li><a href="#">Branch Store</a></li>
-          <li><a href="#">Cooperation</a></li>
+          <li><a href="https://www.instagram.com/msglowclinicbekasi/" target="_blank">Cooperation</a></li>
         </ul>
         
         <ul>
           <li><p>SHOPPING</p></li>
           <li><a href="#products">Products</a></li>
           <li><a href="#">Promo</a></li>
-          <li><a href="#">Payment</a></li>
+          <li><a href="https://www.paypal.com/id/home" target="_blank">Payment</a></li>
         </ul>
 
         <ul>
           <li><p>DELIVERY</p></li>
           <li><a href="#">Pickup in store</a></li>
-          <li><a href="#">Grab Send</a></li>
-          <li><a href="#">GO Send</a></li>
+          <li><a href="https://www.grab.com/id/" target="_blank">Grab Send</a></li>
+          <li><a href="https://www.gojek.com/id-id/" target="_blank">GO Send</a></li>
         </ul>
         
         <ul>
           <li><p>PAYMENT</p</li>
-          <li><a href="#">Mandiri</a></li>
-          <li><a href="#">BRI</a></li>
-          <li><a href="#">BNI</a></li>
+          <li><a href="https://bankmandiri.co.id/" target="_blank">Mandiri</a></li>
+          <li><a href="https://ib.bri.co.id/ib-bri/" target="_blank">BRI</a></li>
+          <li><a href="https://ibank.bni.co.id/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__
+          EVENT_ID__=LOAD&FG_BUTTONS__=LOAD/ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=BNI01&LANGUAGE_ID=002" target="_blank">BNI</a></li>
         </ul>
       </div>
       
       <!-- social --------------------------->
       <div id="contact" class="social-icons">
           <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="far fa-envelope"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-amazon"></i></a>
+          <a href="mailto:putrirenan@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+          <a href="https://instagram.com/_renandrrp?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/NCTsmtown?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://youtube.com/channel/UCx4vtc-Z47HWvLf5FSucxFw" target="_blank"><i class="fab fa-youtube"></i></a>
       </div>
       <!-- copyright ------------------------>
       <p class="copyright">Copyright by Get it Glow Store Indonesia</p>

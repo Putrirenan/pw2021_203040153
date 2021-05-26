@@ -81,9 +81,21 @@ if (isset($_POST['tambah'])) {
         }
 
         .form {
-            margin: 0px 60% 0px 0px;
+            margin: 0px 10% 0px 10%;
         }
-
+        body {
+        background-image: url(../assets/img/slider/bg2.png);
+        background-size: cover;
+        margin-bottom: 60px;
+        }
+        .tombol {
+            float: left;
+            margin: 3px;
+            text-decoration:none; 
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+            background-color: #7986cb; 
+            border-radius: 8px;
+        }
     </style>
 
 </head>
@@ -94,42 +106,50 @@ if (isset($_POST['tambah'])) {
         <h3>Tambah Data</h3><hr>
             <!-- Form  ------------------------->
         <form class="form" action="" method="post" enctype="multipart/form-data">
+
+<div class="row">
+    <div class="col">    
         <div class="mb-3">
             <label for="picture" class="form-label">Picture</label>
             <input type="file" class="picture form-control" name="picture" id="picture" onchange="previewImage()"><br>
             <img src="../assets/img/nophoto.png" width=" 250" height="250" class="img-preview">
         </div>
+        <p>saran: 262 x 262.jpeg/jpg/png</p>
+    </div>
+
+    <div class="col">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" name="name" id="name" required>
+            <input type="text" class="form-control" name="name" id="name" required autocomplete="off">
         </div>
         <div class="mb-3">
             <label for="brand" class="form-label">Brand</label>
-            <input type="text" class="form-control" name="brand" id="brand" required>
+            <input type="text" class="form-control" name="brand" id="brand" required autocomplete="off">
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
-            <input type="text" class="form-control" name="description" id="description" required>
+            <input type="text" class="form-control" name="description" id="description" required autocomplete="off">
         </div>
         <div class="mb-3">
             <label for="price" class="form-label">Price</label>
-            <input type="text" class="form-control" name="price" id="price" required>
+            <input type="text" class="form-control" name="price" id="price" required autocomplete="off">
         </div>
         <div class="mb-3">
             <label for="category" class="form-label">Category</label>
-            <input type="text" class="form-control" name="category" id="category" required>
+            <input type="text" class="form-control" name="category" id="category" required autocomplete="off">
         </div>
         <div class="form-check form-check-inline">
             <input type="checkbox" name="check" id="check" value="check" required>
             <label for="check">I'm sure wanna add this product</label>
         </div> <br><br>
-        
+    </div>
+</div>
             <!-- button ----------------------->
-        <button type="submit" name="tambah" class="btn btn-primary">Tambah Data</button>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" name="tambah" class="tombol btn link-light">Tambah Data</button>
+        <button type="submit" class="tombol btn">
             <a href="admin.php" style="text-decoration: none; color: white;">Kembali</a>
         </button>
-        
+  
         </form>
     </div>
     

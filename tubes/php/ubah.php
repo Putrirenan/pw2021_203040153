@@ -109,7 +109,7 @@ $p = query("SELECT * FROM products WHERE id = $id")[0];
 
 
 <div class="container">
-        <h3>Ubah Data</h3><hr>
+        <h2 style="text-align:center; text-shadow: 2px 2px 2px lightgrey;">Ubah Data</h2><hr>
             <!-- Form  ------------------------->
         <form class="form" action="" method="post" enctype="multipart/form-data">
         <div class="row">
@@ -121,6 +121,7 @@ $p = query("SELECT * FROM products WHERE id = $id")[0];
                     <input type="file" class="picture form-control" name="picture" id="picture" onchange="previewImage()"><br>
                     <img src="../assets/img/<?= $p['picture']; ?>" width=" 250"height="250" class="img-preview">
             </div>
+            <p>saran: 262 x 262.jpeg/jpg/png</p>
         </div>
 
             <div class="col">
@@ -154,7 +155,7 @@ $p = query("SELECT * FROM products WHERE id = $id")[0];
             <!-- button ----------------------->
         <button type="submit" name="ubah" class="ubah btn link-light">Ubah Data</button>
         <button type="submit" class="kembali btn link-light">
-            <a href="../php/admin.php" style="text-decoration: none; color: white;">Kembali</a>
+            <a href="admin.php" style="text-decoration: none; color: white;">Kembali</a>
         </button>
         
 
