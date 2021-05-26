@@ -219,32 +219,32 @@
         <h1>Praktikum</h1>
         <div class="row justify-content-around">
           <div class="col-4">
-            <a href="praktikum/tugas1"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start"></a>
-            <p>Tugas 1</p>
+            <a href="praktikum/tugas1"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
+            <p>Tugas 1</p></a>
           </div>
           <div class="col-4">
-            <a href="praktikum/tugas2"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start"></a>
-            <p>Tugas 2</p>
+            <a href="praktikum/tugas2"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
+            <p>Tugas 2</p></a>
           </div>
         </div>
         <div class="row justify-content-between">
           <div class="col-4">
-            <a href="praktikum/tugas3"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start"></a>
-            <p>Tugas 3</p>
+            <a href="praktikum/tugas3"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
+            <p>Tugas 3</p></a>
           </div>
           <div class="col-4">
-            <a href="praktikum/tugas4"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start"></a>
-            <p>Tugas 4</p>
+            <a href="praktikum/tugas4"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
+            <p>Tugas 4</p></a>
           </div>
         </div>
         <div class="row justify-content-evenly">
           <div class="col-4">
-            <a href="praktikum/tugas5"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start"></a>
-            <p>Tugas 5</p>
+            <a href="praktikum/tugas5"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
+            <p>Tugas 5</p></a>
           </div>
           <div class="col-4">
-            <a href="praktikum/tugas6"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start"></a>
-            <p>Tugas 6</p>
+            <a href="praktikum/tugas6"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
+            <p>Tugas 6</p></a>
           </div>
         </div>
       </div>
@@ -255,8 +255,8 @@
         <h1>Tubes</h1>
           <div class="row justify-content-start" style="margin: 0px 0px 200px 400px;">
             <div class="col-4 center">
-              <a href="tubes/index.php"><img src="tubes/assets/img/kuliah/p3.png" width="180" style="margin: 5px;" class="rounded float-start"></a>
-              <p>Tubes</p>
+              <a href="tubes/index.php"><img src="tubes/assets/img/kuliah/p3.png" width="180" style="margin: 5px;" class="rounded float-start">
+              <p>Tubes</p></a>
             </div>
           </div>
       </div>

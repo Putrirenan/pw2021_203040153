@@ -45,6 +45,7 @@ if (isset($_POST['tambah'])) {
     <title>Get it Glow Store || Online Store </title>
     
     <link rel="stylesheet" href="css/style.css">
+    <link href ="../assets/img/logo.png" rel="shortcut icon">
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

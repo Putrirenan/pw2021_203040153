@@ -26,6 +26,7 @@ $products = query("SELECT * FROM products")
     <title>Get it Glow Store || Online Store </title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link href ="assets/img/logo.png" rel="shortcut icon">
 
     <!-- Import Google font Pacifio -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -148,9 +149,6 @@ $products = query("SELECT * FROM products")
                 <li class="nav-item">
                     <a class="nav-link" href="#products" style="color: #4b0082;">Products</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#contact" style="color: #4b0082;">Contact Us</a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#contact" style="color: #4b0082;">
                         <i class="fas fa-shopping-cart fa-lg"><br><p style="font-size: 10px;">Cart+</p></i>

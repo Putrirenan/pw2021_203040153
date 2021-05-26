@@ -42,6 +42,7 @@ if(isset($_GET['cari'])) {
     <title>Get it Glow Store || Online Store </title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link href ="../assets/img/logo.png" rel="shortcut icon">
 
     <!-- Import Google font Pacifio -->
     <link rel="preconnect" href="https://fonts.gstatic.com">

@@ -36,6 +36,7 @@ if (isset($_POST["register"])) {
     <title>Registrasi . New Account | Get it Glow Store</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link href ="../assets/img/logo.png" rel="shortcut icon">
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -122,14 +123,14 @@ if (isset($_POST["register"])) {
 
         <div class="mb-3">
             <label for="username" class="form-label">Username : </label>
-            <input type="text" class="form-control" name="username" id="username" required>
+            <input type="text" class="form-control" name="username" id="username" required autofocus autocomplete="off">
         </div>
         <div class="mb-3">
             <label for="password" class="form-label">Password : </label>
             <input type="password" class="form-control" name="password" id="password" required>
         </div>
         <div class="remember">
-            <input type="checkbox" name="remember" id="remember">
+            <input type="checkbox" name="remember" id="remember" required>
             <label for="remember">Remember me</label>
         </div>
                 
