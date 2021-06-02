@@ -4,9 +4,8 @@
     203040153
     Jum'at, 13:00
 */
-?>
 
-<?php
+
 // Menghubungkan dengan file php lainnya
 require 'php/functions.php';
 
@@ -15,8 +14,6 @@ $products = query("SELECT * FROM products")
 
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

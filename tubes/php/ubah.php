@@ -4,10 +4,7 @@
     203040153
     Jum'at, 13:00
 */
-?>
 
-
-<?php
 session_start();
 
 if (!isset($_SESSION['username'])) {
@@ -40,7 +37,6 @@ $p = query("SELECT * FROM products WHERE id = $id")[0];
     } 
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

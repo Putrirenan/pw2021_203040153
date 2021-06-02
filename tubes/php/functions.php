@@ -4,9 +4,8 @@
     203040153
     Jum'at, 13:00
 */
-?>
 
-<?php  
+
 // fungsi untuk melakukan koneksi ke database
 function koneksi() 
 {

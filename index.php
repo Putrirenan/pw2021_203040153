@@ -5,7 +5,6 @@
     Jum'at, 13:00
 */
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,13 +137,8 @@
       <div class="container" style="margin-left: 100px;">
         <div class="row">
           <div class="col">
-            <img src="tubes/assets/img/kuliah/renan.png" width="150">
-          </div>
-          <div class="col" style="margin-left: -450px;">
-            <h5>Nama : Renandra Rahadian Putri</h5>
-            <h5>NPM : 203040153</h5>
-            <h5>Kelas : D</h5>
-            <h5>Jurusan : Teknik Informatika</h5>
+            <h4>Halo, Saya Renandra Rahadian Putri.</h4>
+            <h4>Untuk melihat tugas-tugas saya silahkan klik menu tugas <br>yang ada di bawah! ^^</h4>
           </div>
         </div>
       </div>

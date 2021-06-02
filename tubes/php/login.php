@@ -4,9 +4,7 @@
     203040153
     Jum'at, 13:00
 */
-?>
-
-<?php 
+ 
 session_start();
 require 'functions.php';
 /* melakukan pengecekan apakah user sudah melakukan login 

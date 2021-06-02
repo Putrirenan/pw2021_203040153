@@ -4,9 +4,7 @@
     203040153
     Jum'at, 13:00
 */
-?>
 
-<?php 
 require 'functions.php';
 
 if (isset($_POST["register"])) {
@@ -26,7 +24,6 @@ if (isset($_POST["register"])) {
 
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

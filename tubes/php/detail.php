@@ -4,9 +4,8 @@
     203040153
     Jum'at, 13:00
 */
-?>
 
-<?php 
+
 // Mengecek apakah ada id yang dikirimkan
 // Jika tidak maka akan dikembalikan ke halaman index.php
 if (!isset($_GET['id'])) {
@@ -23,8 +22,6 @@ $id = $_GET['id'];
 $products = query("SELECT * FROM products WHERE id = $id") [0];
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
