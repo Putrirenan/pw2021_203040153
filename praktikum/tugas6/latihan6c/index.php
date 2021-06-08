@@ -1,20 +1,15 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    Jum'at, 13:00
-*/
-?>
+    // Renandra Rahadian Putri
+    // 203040153
+    // Jum'at, 13:00
 
-<?php
+
 // Menghubungkan dengan file php lainnya
 require 'php/functions.php';
 // Melakukan query
 $products = query("SELECT * FROM products")
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,17 +1,14 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    Jum'at, 13:00
-*/
-?>
+    // Renandra Rahadian Putri
+    // 203040153
+    // Jum'at, 13:00
 
-<?php  
+ 
 // fungsi untuk melakukan koneksi ke database
 function koneksi() 
 {
-    $conn = mysqli_connect("localhost", "root", "");
-    mysqli_select_db($conn, "pw_tubes_203040153");
+    $conn = mysqli_connect("localhost", "pw20153_pw203040153", "gP[](Fkl--3L");
+    mysqli_select_db($conn, "pw20153_tubes_203040153");
 
     return $conn;
 }

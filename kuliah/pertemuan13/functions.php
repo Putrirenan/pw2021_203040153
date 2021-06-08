@@ -1,18 +1,16 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    https://github.com/Putrirenan/pw2021_203040153
-    Pertemuan 13 - 5 Mei 2021
-    Mempelajari mengenai AJAX Live search & Upload Gambar
-*/
-?>
 
-<?php 
+  // Renandra Rahadian Putri
+  // 203040153
+  // https://github.com/Putrirenan/pw2021_203040153
+  // Pertemuan 13 - 5 Mei 2021
+  // Mempelajari mengenai AJAX Live search & Upload Gambar
+
+ 
 
 function koneksi() 
 {
-  return mysqli_connect('localhost', 'root', '', 'pw_203040153');
+  return mysqli_connect('localhost', 'pw20153_pw203040153', 'gP[](Fkl--3L', 'pw20153_pw_203040153');
 }
 
 function query($query) 

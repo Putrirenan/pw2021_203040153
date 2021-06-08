@@ -1,9 +1,7 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    Jum'at, 13:00
-*/
+    // Renandra Rahadian Putri
+    // 203040153
+    // Jum'at, 13:00
 
 
 // Menghubungkan dengan file php lainnya
@@ -43,65 +41,42 @@ $products = query("SELECT * FROM products")
     crossorigin="anonymous"></script>
 
     <style>
-    nav.navbar {
+    .navbar{
+        background-color: #FAF9F6; 
+        /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
+    }
+    .navbar .container {
+        margin:auto;
         font-weight: bold;
     }
-    nav ul.nav-ul {
-        margin-bottom: -20px;
+    .nav-ul a {
+        color: #4b0082 !important;
     }
-    nav a {
-        color: #4b0082;
-    }
-    .nav a:hover {
+    .nav-ul a:hover {
         color: #ab47bc!important;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
         transition: all ease 0.5s;
     }
-    nav a .navbar-brand {
-        font-size: 24px;
-    }
-    nav a .nav-link {
-        font-size: 14px;
-        color: #4b0082;
-    }
-    nav a.login,
-    nav a.logout {
-        background-color: #191970;
-        color: white;
-        border-radius: 8px;
-        margin: 0px 5px 0px 5px;
-    }
-    .login {
-        margin: 2% 0px 0px 3.4%;
-        border-radius: 8px 0px 8px 0px;
-    }
-    .nav a.login a:hover,
-    .nav a.logout a:hover {
-        background-color: #8A2BE2!important;
-        border-radius: 8px;
-        margin: 0px 5px 0px 5px;
-        transition: all ease 0.5s;
-    }
     .tales {
-        height: 500px;
+        /* height: 500px; */
     }
     .tentang-sec {
         background-image: url(assets/img/slider/about.png); 
-        width: 1360px;
-        margin-left: 80px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: auto;
     }
     .tentang-container {
-        width: 75%;
+        margin: auto;
+        padding: 0px 20px 0px 20px;
         height: 400px;
         color: #000;
         align-content: center;
-        margin: 0px 0px 0px 200px;
     }
     .tentang-container h1 { 
         text-align: center; 
         padding-top: 65px; 
         padding-bottom: 20px;
-        margin-left: -70px; 
         font-family: 'Pacifico', cursive; 
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
     }
@@ -115,20 +90,11 @@ $products = query("SELECT * FROM products")
         padding: 0px 0px 100px 70px;
     }
     .container-delivery {
-        height: 150px;
-        display: flex;
-        /* margin-top: -13px; */
         background-color: #424242;
         text-align: center;
         padding: 25px 0px 10px 0px;
-    }
-    .icon li {
-        float: left;
-        margin: 0px 80px 0px 80px;
-        padding-left: 3px;
-    } 
-    .icon {
-        color: white;
+        color: #f5f5f5;
+        font-size: 12px;
     }
     </style>
 
@@ -136,54 +102,69 @@ $products = query("SELECT * FROM products")
 <body id="home" class="scrollspy">
 
     <!-- Navbar ------------------------------------------>
-    <nav class="navbar fixed-top" style="background-color: #FAF9F6; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);"> <!-- #dda0dd -->
-        <div class="container-fluid" style="width: 90%; height: 50px;">
-            <a class="navbar-brand" href="#" style="margin-left: 70px; font-size: 28px; color: #4b0082; font-family: 'Pacifico', cursive;">Get it Glow</a>
-            <ul class="nav-ul nav justify-content-center" >
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container container-fluid">
+            <a class="navbar-brand" href="#home" style="font-size: 28px; color: #4b0082; font-family: 'Pacifico', cursive;">Get it Glow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="nav-ul navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home" style="color: #4b0082;">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#products" style="color: #4b0082;">Products</a>
+                    <a class="nav-link active" href="#products">Product</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact" style="color: #4b0082;">
-                        <i class="fas fa-shopping-cart fa-lg"><br><p style="font-size: 10px;">Cart+</p></i>
+                    <a class="nav-link active" href="#">
+                    <i class="fas fa-shopping-cart fa-lg"><br><p style="font-size: 9px; margin-bottom: -14px;">Cart+</p></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact" style="color: #4b0082;">
-                        <i class="far fa-comments fa-lg"><br><p style="font-size: 10px;"><strong>Chat</strong></p></i>
+                    <a class="nav-link active" href="#">
+                    <i class="far fa-comments fa-lg"><br><p style="font-size: 9px; margin-bottom: -14px;"><strong>Chat</strong></p></i>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="login nav-link" href="php/login.php" target="_blank">Login</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Help
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Account</a></li>
+                    <li><a class="dropdown-item" href="#">Security</a></li>
+                    <li><a class="dropdown-item" href="#">Payment</a></li>
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li>
+                </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="logout nav-link" href="php/registrasi.php" target="_blank">Sign up</a>
+                    <a class="nav-link active" href="php/login.php" target="_blank"><button type="button" class="btn text-light btn-sm" style="background-color: #191970; font-weight: bold;">Login</button></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact" style="color: #4b0082;"><i class="far fa-question-circle"></i></a>
+                    <a class="nav-link active" href="php/registrasi.php" target="_blank"><button type="button" class="btn text-light btn-sm" style="background-color: #191970; font-weight: bold;">Signup</button></a>
                 </li>
             </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Carousel -------------------------------------->
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="row">
+          <div class="col-md-12" style="padding: 0px !important; margin: 0px -12px !important;">
+          <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="assets/img/slider/p1.png" class="tales d-block w-1000" alt="...">
+            <img src="assets/img/slider/p1.png" class="tales d-block w-100">
                 <div class="carousel-caption text-light d-none d-md-block">
                     <h5 style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);">Lihat Produk terbaik toko!</h5>
                     <p><a href="#products" class="lihat-slider link-dark btn btn-xl">Lihat</a></p>
                 </div>
             </div> 
             <div class="carousel-item">
-            <img src="assets/img/slider/p2.png" class="tales d-block w-1000" alt="...">
+            <img src="assets/img/slider/p2.png" class="tales d-block w-100">
             </div>
             <div class="carousel-item">
-            <img src="assets/img/slider/p3.png" class="tales d-block w-1000" alt="...">
+            <img src="assets/img/slider/p3.png" class="tales d-block w-100">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -194,11 +175,13 @@ $products = query("SELECT * FROM products")
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+          </div>
+        </div>
     </div>
 
     <!-- About ------------------------------->
     <section  id="tentang" class="tentang-sec scrollspy white-text center">
-        <div class="tentang-container">
+        <div class="tentang-container col-md-7 g-4">
             <h1>About Us</h1>
             <h4>Mengapa Harus Get It Glow?</h4>
             <p>Karena kami akan senantiasa memberikan pelayanan terbaik di 
@@ -218,12 +201,16 @@ $products = query("SELECT * FROM products")
             color:black; font-family: 'Pacifico', cursive;">Products</h1><br>
 
         <!-- Searching ----------------------->
-        <form action="" method="POST" style=" padding: 0px 0px 0px 540px;">
-            <input class="form-control" style="width: 450px;" type="text" name="keyword" class="keyword"
-            placeholder="Cari produk skincare disc10%.." autocomplete="off">
-            <button class="link-dark btn btn-sm" type="submit" name="cari" 
-                    style="margin: -65px 0px 0px 460px; text-decoration:none; background-color: #7986cb; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
-                            color: white;">Cari</button>
+        <form action="" method="POST">
+            <div class="row justify-content-center">
+              <div class="col-md-3">
+                <input class="form-control" style="width: 450px;" type="text" name="keyword" class="keyword"
+                    placeholder="Cari produk skincare disc10%.." autocomplete="off">
+                <button class="link-dark btn btn-sm" type="submit" name="cari" 
+                style="margin: -65px 0px 0px 460px; text-decoration:none; background-color: #7986cb; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+                        color: white;">Cari</button>
+              </div>
+            </div>
         </form>
 
         <div class="container">
@@ -259,15 +246,35 @@ $products = query("SELECT * FROM products")
         </div>
     </section>
 
-      <!-- Delivery -->
+      <!-- Delivery --------------------------------->
     <div class="container-delivery scrollspy">
-        <ul class="icon" style="list-style: none;">
-            <li><i class="fas fa-headset fa-5x"></i><br>Customers Service</li>
-            <li><i class="fab fa-shopify fa-5x"></i><br>Free Shopping bag</li>
-            <li><i class="fas fa-shipping-fast fa-5x"></i><br>Fast Shipping</li>
-            <li><i class="fas fa-box-open fa-5x"></i><br>Secured Packaging</li>
-            <li><i class="fab fa-cc-visa fa-5x"></i><br>Multi Payment</li>
-        </ul>
+       <div class="row justify-content-center">
+          <div class="col-md-2">
+            <ul style="list-style: none;">
+              <li><i class="fas fa-headset fa-5x"></i><br>Customers Service</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul style="list-style: none;">
+              <li><i class="fab fa-shopify fa-5x"></i><br>Free Shopping bag</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul style="list-style: none;">
+              <li><i class="fas fa-shipping-fast fa-5x"></i><br>Fast Shipping</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul style="list-style: none;">
+              <li><i class="fas fa-box-open fa-5x"></i><br>Secured Packaging</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul style="list-style: none;">
+              <li><i class="fab fa-cc-visa fa-5x"></i><br>Multi Payment</li>
+            </ul>
+          </div>
+       </div>
     </div>
 
 
@@ -282,147 +289,111 @@ $products = query("SELECT * FROM products")
         <?php endforeach; ?>
     </div> -->
 
-
-      <!-- Footer ---------------------------------->
-  <footer class="white-text center scrollspy">
-      <p style="font-family: 'Pacifico', cursive;">Get it Glow</p>
-      <p>Be Happy and Health Skin!</p>
-
-      <!-- Menu footer -->
-      <div class="container-about">
+    <!-- Footer ---------------------------------------------->
+  <footer class="text-black p-5">
+    <div class="row justify-content-center">
+      <div class="col-md-3">
         <ul>
-          <li><p>ABOUT US</p></li>
+          <li><h4><strong style="font-family: 'Pacifico', cursive; margin-left: 35px;">Get it Glow</strong></h4></li>
+          <li class="text-light">Be Happy and Health Skin!</li>
+        </ul>
+      </div>
+    </div>
+        <!-- Menu footer ------------------------------->
+    <div class="row justify-content-center menu" style="margin-top: 30px;">
+      <div class="col-md-2">
+        <ul>
+          <li><h5><strong>ABOUT US</strong></h5></li>
           <li><a href="#tentang">About us</a></li>
           <li><a href="#">Branch Store</a></li>
           <li><a href="https://www.instagram.com/msglowclinicbekasi/" target="_blank">Cooperation</a></li>
         </ul>
-        
+      </div>
+      <div class="col-md-2">
         <ul>
-          <li><p>SHOPPING</p></li>
+          <li><h5><strong>SHOPPING</strong></h5></li>
           <li><a href="#products">Products</a></li>
           <li><a href="#">Promo</a></li>
           <li><a href="https://www.paypal.com/id/home" target="_blank">Payment</a></li>
         </ul>
-
+      </div>
+      <div class="col-md-2">
         <ul>
-          <li><p>DELIVERY</p></li>
+          <li><h5><strong>DELIVERY</strong></h5></li>
           <li><a href="#">Pickup in store</a></li>
           <li><a href="https://www.grab.com/id/" target="_blank">Grab Send</a></li>
           <li><a href="https://www.gojek.com/id-id/" target="_blank">GO Send</a></li>
         </ul>
-        
+      </div>
+      <div class="col-md-2">
         <ul>
-          <li><p>PAYMENT</p</li>
-          <li><a href="https://bankmandiri.co.id/" target="_blank">Mandiri</a></li>
-          <li><a href="https://ib.bri.co.id/ib-bri/" target="_blank">BRI</a></li>
-          <li><a href="https://ibank.bni.co.id/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__
-          EVENT_ID__=LOAD&FG_BUTTONS__=LOAD/ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=BNI01&LANGUAGE_ID=002" target="_blank">BNI</a></li>
+            <li><h5><strong>PAYMENT</strong></li>
+            <li><a href="https://bankmandiri.co.id/" target="_blank">Mandiri</a></li>
+            <li><a href="https://ib.bri.co.id/ib-bri/" target="_blank">BRI</a></li>
+            <li><a href="https://ibank.bni.co.id/corp/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__
+            EVENT_ID__=LOAD&FG_BUTTONS__=LOAD/ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=BNI01&LANGUAGE_ID=002" target="_blank">BNI</a></li>
         </ul>
       </div>
-      
-      <!-- social --------------------------->
-      <div id="contact" class="social-icons">
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="mailto:putrirenan@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
-          <a href="https://instagram.com/_renandrrp?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://twitter.com/NCTsmtown?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://youtube.com/channel/UCx4vtc-Z47HWvLf5FSucxFw" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+        <!-- Social Icons ---------------------------------->
+    <div class="row justify-content-center social">
+        <div class="col-1" style="margin: 30px -35px 15px -35px;">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="col-1" style="margin: 30px -35px 15px -35px;">
+            <a href="mailto:putrirenan@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+        <div class="col-1" style="margin: 30px -35px 15px -35px;">
+            <a href="https://instagram.com/_renandrrp?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="col-1" style="margin: 30px -35px 15px -35px;">
+            <a href="https://twitter.com/NCTsmtown?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="col-1" style="margin: 30px -35px 15px -35px;">
+            <a href="https://youtube.com/channel/UCx4vtc-Z47HWvLf5FSucxFw" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+        <!-- Copyright ------------------------------------->
+    <div class="row justify-content-center">
+      <div class="col-md-3" style="margin-bottom: -35px; font-size: 14px;">
+          <p class="copyright"><b>Copyright by Get it Glow Store Indonesia</b></p>
       </div>
-      <!-- copyright ------------------------>
-      <p class="copyright">Copyright by Get it Glow Store Indonesia</p>
-    
-      <!--<p class="flow-text">Copyright by Putrirenan 2020.</p>-->
+    </div>
   </footer>
+
     <style>
     footer {
-        padding: 5px 0px;
         background-color: #708090;
-        height: 400px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
     }
-    footer p {
-        font-family: 'Quicksand';
-        justify-content: center;
-    }
-
-    footer p:nth-child(1) {
-        font-size: 24px;
-        font-weight: bold;
-        color: black;
-        line-height: 5px;
-        margin-top: 40px;
-    }
-    footer p:nth-child(2) {
-        font-size: 16px;
-        color: white;
-        width: 600px;
-        text-align: center;
-        margin-top: 10px;
-        padding-bottom: 15px;
-    }
-    .container-about ul {
-        float: left;
-        text-align: center;
-        padding: 0px 125px 0px 125px;
+    footer ul {
         list-style: none;
     }
-    .container-about li p {
-        font-size: 18px;
-        font-weight: bold;
-        color: black;
-    }
-
-    .container-about li {
-        font-size: 16px;
-        text-align: left;
-    }
-    .container-about li a {
+    footer a {
         text-decoration: none;
         color: snow;
     }
-    .container-about li a:hover {
+    .menu a:hover {
         color: lightskyblue;
         text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
         transition: all ease 0.5s;
     }
-    .social-icons {
-        display: flex;
-        margin-top: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .social-icons a {
+    .social a {
         width: 40px;
         height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #e6e3e3;
-        margin: 0px 10px 0px 0px;
+        /* margin: 0px 10px 0px 0px; */
+        color: #3f51b5 ;
         border-radius: 50%;
-        text-decoration: none;
     }
-    .copyright {
-        color: white;
-        font-size: 13px;
-        position: absolute;
-        left: 50%;
-        bottom: 10px;
-        transform: translateX(-50%);
-        padding: 10px 0px 0px 0px;
-    }
-    .social-icons i {
-        color: #000;
-    }
-    .social-icons a:hover{
+    .social a:hover{
         background-color: #191970;
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
         transition: all ease 0.5s;
     }
-    .social-icons a:hover i {
+    .social a:hover i {
         color: #fff;
         transition: all ease 0.5s;
     }

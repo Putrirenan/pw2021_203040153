@@ -1,9 +1,7 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    Jum'at, 13:00
-*/
+    // Renandra Rahadian Putri
+    // 203040153
+    // Jum'at, 13:00
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,46 +33,7 @@
     <style>
     * {
         font-family: 'Quicksand';
-    }
-    nav.navbar {
-        font-weight: bold;
-    }
-    nav ul.nav-ul {
-        margin-bottom: -20px;
-    }
-    nav a {
-        color: #4b0082;
-    }
-    .nav a:hover {
-        color: #ab47bc!important;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-        transition: all ease 0.5s;
-    }
-    nav a .navbar-brand {
-        font-size: 24px;
-    }
-    nav a .nav-link {
-        font-size: 14px;
-        color: #4b0082;
-    }
-    nav a.login,
-    nav a.logout {
-        background-color: #191970;
-        color: white;
-        border-radius: 8px;
-        margin: 0px 5px 0px 5px;
-    }
-    .login {
-        margin: 2% 0px 0px 3.4%;
-        border-radius: 8px 0px 8px 0px;
-    }
-    .nav a.login a:hover,
-    .nav a.logout a:hover {
-        background-color: #8A2BE2!important;
-        border-radius: 8px;
-        margin: 0px 5px 0px 5px;
-        transition: all ease 0.5s;
-    }    
+    }   
     body {
         background-image: url(tubes/assets/img/slider/bg2.png); 
         background-repeat: no-repeat;  
@@ -134,11 +93,11 @@
 <body id="home" class="scrollspy">
 
     <section class="profil">
-      <div class="container" style="margin-left: 100px;">
-        <div class="row">
-          <div class="col">
+      <div class="container" style="">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
             <h4>Halo, Saya Renandra Rahadian Putri.</h4>
-            <h4>Untuk melihat tugas-tugas saya silahkan klik menu tugas <br>yang ada di bawah! ^^</h4>
+            <h4>Untuk melihat tugas-tugas saya silahkan klik menu tugas yang ada di bawah! ^^</h4>
           </div>
         </div>
       </div>
@@ -148,59 +107,59 @@
       <div class="container">
         <h1>Kuliah</h1>
           <div class="row justify-content-start">
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan2"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 2</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan3"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 3</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan4"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 4</p></a>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan5"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 5</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan6"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 6</p></a>
             </div>
           </div>
           <div class="row justify-content-end">
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan7"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 7</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan8"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 8</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan9"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 9</p></a>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan10"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 10</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan11"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 11</p></a>
             </div>
           </div>
           <div class="row justify-content-between">
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan12"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 12</p></a>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
               <a href="kuliah/pertemuan13"><img src="tubes/assets/img/kuliah/p1.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Pertemuan 13</p></a>
             </div>
@@ -212,31 +171,31 @@
       <div class="container">
         <h1>Praktikum</h1>
         <div class="row justify-content-around">
-          <div class="col-4">
+          <div class="col-md-4">
             <a href="praktikum/tugas1"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
             <p>Tugas 1</p></a>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <a href="praktikum/tugas2"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
             <p>Tugas 2</p></a>
           </div>
         </div>
         <div class="row justify-content-between">
-          <div class="col-4">
+          <div class="col-md-4">
             <a href="praktikum/tugas3"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
             <p>Tugas 3</p></a>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <a href="praktikum/tugas4"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
             <p>Tugas 4</p></a>
           </div>
         </div>
         <div class="row justify-content-evenly">
-          <div class="col-4">
+          <div class="col-md-4">
             <a href="praktikum/tugas5"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
             <p>Tugas 5</p></a>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <a href="praktikum/tugas6"><img src="tubes/assets/img/kuliah/p2.png" width="180" style="margin: 5px; margin-bottom: 25px;" class="rounded float-start">
             <p>Tugas 6</p></a>
           </div>
@@ -247,8 +206,8 @@
     <section class="tubes">
       <div class="container">
         <h1>Tubes</h1>
-          <div class="row justify-content-start" style="margin: 0px 0px 200px 400px;">
-            <div class="col-4 center">
+          <div class="row justify-content-center" style="margin: 0px 0px 200px 0px;">
+            <div class="col-md-4">
               <a href="tubes/index.php"><img src="tubes/assets/img/kuliah/p3.png" width="180" style="margin: 5px;" class="rounded float-start">
               <p>Tubes</p></a>
             </div>

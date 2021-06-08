@@ -1,12 +1,9 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    Jum'at, 13:00
-*/
-?>
+    // Renandra Rahadian Putri
+    // 203040153
+    // Jum'at, 13:00
 
-<?php 
+
 session_start();
 
 if (!isset($_SESSION['username'])) {
@@ -31,8 +28,6 @@ if(isset($_GET['cari'])) {
 }
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

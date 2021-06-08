@@ -1,10 +1,10 @@
-/*
-    Renandra Rahadian Putri
-    203040153
-    https://github.com/Putrirenan/pw2021_203040153
-    Pertemuan 13 - 5 Mei 2021
-    Mempelajari mengenai AJAX Live search & Upload Gambar
-*/
+
+// Renandra Rahadian Putri
+// 203040153
+// https://github.com/Putrirenan/pw2021_203040153
+// Pertemuan 13 - 5 Mei 2021
+// Mempelajari mengenai AJAX Live search & Upload Gambar
+
 
 const tombolCari = document.querySelector('.tombol-cari');
 const keyword = document.querySelector('.keyword');

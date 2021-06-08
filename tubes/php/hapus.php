@@ -1,9 +1,7 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    Jum'at, 13:00
-*/
+    // Renandra Rahadian Putri
+    // 203040153
+    // Jum'at, 13:00
 
 session_start();
 

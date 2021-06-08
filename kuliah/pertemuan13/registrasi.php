@@ -1,14 +1,12 @@
 <?php
-/*
-    Renandra Rahadian Putri
-    203040153
-    https://github.com/Putrirenan/pw2021_203040153
-    Pertemuan 13 - 5 Mei 2021
-    Mempelajari mengenai AJAX Live search & Upload Gambar
-*/
-?>
 
-<?php
+  // Renandra Rahadian Putri
+  // 203040153
+  // https://github.com/Putrirenan/pw2021_203040153
+  // Pertemuan 13 - 5 Mei 2021
+  // Mempelajari mengenai AJAX Live search & Upload Gambar
+
+
 require 'functions.php';
 
 if (isset($_POST['registrasi'])) {
@@ -22,7 +20,6 @@ if (isset($_POST['registrasi'])) {
   }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
